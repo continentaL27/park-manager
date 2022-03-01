@@ -11,4 +11,8 @@ public class MainController {
 		return "Hello!";
 	}
 
+	@GetMapping("/goodbye")
+	public String sayGoodbye() {
+		return "Goodbye!";
+	}
 }
